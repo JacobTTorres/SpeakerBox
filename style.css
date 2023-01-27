@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+:root {
+  /* colors */
+  --primaryColor: rgba(40, 40, 178, 1);
+  --darkerPrimaryColor: rgb(14, 14, 68);
+  --secondaryOne: rgba(90, 29, 173, 1);
+  --secondaryTwo: rgba(24, 103, 164, 1);
+  --complementColor1: rgba(255, 219, 110, 1);
+  --complementColor2: rgba(255, 208, 69.1);
+  --complementColor3: rgba(254, 196, 22, 1);
+  --complementColor4: rgba(208, 156, 0, 1);
+  --complementColor5: rgba(164, 123, 0, 1);
+  --black: rgba(0, 0, 0, 1);
+  --white: rgba(255, 255, 255, 1);
+  --buttonGrad: linear-gradient(
+    90deg,
+    rgba(198, 33, 106, 1) 0%,
+    rgba(196, 47, 188, 1) 100%
+  );
+  --buttonGradHov: linear-gradient(
+    90deg,
+    rgba(198, 33, 106, 0.95) 0%,
+    rgba(196, 47, 188, 0.95) 100%
+  );
+}
+
+.appHeader {
+  background-image: linear-gradient(
+    120deg,
+    var(--secondaryTwo) 0%,
+    var(--primaryColor) 75%,
+    var(--darkerPrimaryColor) 100%
+  );
+  width: 100vw;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,71 @@
+.navbarContainer {
+  width: 75%;
+  height: 12vh;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  z-index: 2;
+}
+
+.navLogo {
+  width: 272px;
+  height: 48px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+}
+
+.navBtn,
+.loginBtn {
+  background: none;
+  border: none;
+  width: 15%;
+  color: var(--white);
+}
+
+.navBtn,
+.loginBtn,
+.callBtn {
+  font-size: 17px;
+  height: 40%;
+}
+
+.loginBtn {
+  width: 30%;
+}
+
+.navBtn:hover,
+.loginBtn:hover {
+  color: var(--complementColor3);
+  transition: 700ms;
+  cursor: pointer;
+}
+
+.login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  height: 100%;
+}
+
+.callBtn {
+  border-radius: 0.5vw;
+  border: none;
+  background-image: var(--buttonGrad);
+  height: 40%;
+  width: 60%;
+  color: var(--white);
+}
+
+.callBtn:hover {
+  background-image: var(--buttonGradHov);
+  transition: 1000ms;
+}

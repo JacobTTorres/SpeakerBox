@@ -1,0 +1,39 @@
+.headerContainer {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header,
+.headerInfo,
+.headerBtn {
+  margin: 0 0 30px 0;
+  color: var(--white);
+}
+
+.header {
+  font-size: 50px;
+}
+
+.headerInfo {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.headerBtn {
+  background-image: var(--buttonGrad);
+  border: none;
+  border-radius: 25vw;
+  height: 10%;
+  width: 40%;
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+.headerBtn:hover {
+  background-image: var(--buttonGradHov);
+  cursor: pointer;
+}
