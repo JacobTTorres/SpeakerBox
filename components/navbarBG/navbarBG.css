@@ -1,7 +1,7 @@
 .navBG {
   background-color: var(--primaryColor);
   width: 100%;
-  height: 12vh;
+  height: 9vh;
   position: fixed;
   top: 0;
   z-index: 1;

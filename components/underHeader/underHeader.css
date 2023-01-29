@@ -1,18 +1,18 @@
-.underHeaderContainer{
+.underHeaderContainer {
   width: 100vw;
-  height: 15vh;
+  height: 11vh;
   background-color: rgba(40, 40, 40, 1);
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 
-.underHeaderIcon{
+.underHeaderIcon {
   transform: scale(2.5);
   margin-right: 25px;
 }
 
-.checkMark{
+.checkMark {
   color: white;
   font-size: 25px;
   width: 20%;

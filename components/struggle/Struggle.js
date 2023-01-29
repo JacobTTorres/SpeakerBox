@@ -1,4 +1,5 @@
 import React from 'react';
+import './struggle.css';
 
 export default function Struggle() {
   return (
@@ -16,28 +17,28 @@ export default function Struggle() {
         </h1>
         <div className="struggleInfoContainer">
           <p className="struggleInfo">
-            Crating content for a diverse audience of consumers
+            ✖ Crating content for a diverse audience of consumers
           </p>
         </div>
         <div className="struggleInfoContainer">
           <p className="struggleInfo">
-            keeping their communities <strong>consistently</strong> engaged and
-            growing
+            ✖ Keeping their communities <strong>consistently</strong> engaged
+            and growing
           </p>
         </div>
         <div className="struggleInfoContainer">
           <p className="struggleInfo">
-            producing high-quality content that gets engagement
+            ✖ Producing high-quality content that gets engagement
           </p>
         </div>
         <div className="struggleInfoContainer">
           <p className="struggleInfo">
-            Distributing information across multiple online channels
+            ✖ Distributing information across multiple online channels
           </p>
         </div>
         <div className="struggleInfoContainer">
           <p className="struggleInfo">
-            Choosing topics your preferred audience wants to learn about
+            ✖ Choosing topics your preferred audience wants to learn about
           </p>
         </div>
       </div>
