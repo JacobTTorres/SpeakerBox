@@ -1,4 +1,74 @@
 .leverageContainer {
-  height: 140vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  height: 93vh;
+  width: 100;
   background-color: rgb(247, 248, 250);
+}
+
+.leverageHeader {
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 35px;
+}
+
+.leverageUnder {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.underStrong {
+  font-size: 20px;
+}
+
+.leverageMain {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  flex-direction: row;
+  width: 75%;
+}
+
+.leverContainer {
+  width: 190.969;
+  height: 394.5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.leverHeader {
+  margin: 0;
+  font-size: 25px;
+}
+
+.leverInfo {
+  font-size: 16px;
+  margin: 5px;
+}
+
+.leverBtn {
+  margin-top: 20px;
+  height: 37.5px;
+  width: 125px;
+  background: none;
+  border-radius: 5vw;
+}
+
+.leverLink {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(255, 0, 102, 1);
+}
+
+.leverLink:hover,
+.leverBtn:hover {
+  cursor: pointer;
+}
+
+.leverLink:hover {
+  color: rgba(252, 62, 138, 1);
 }
