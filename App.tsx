@@ -6,6 +6,7 @@ import WhatWeDo from './components/whatWeDo/WhatWeDo';
 import UnderHeader from './components/underHeader/UnderHeader';
 import Struggle from './components/struggle/Struggle';
 import Leverage from './components/leverage/Leverage';
+import Webinar from "./components/webinar/Webinar"
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
         <UnderHeader />
         <Struggle />
         <Leverage />
+        <Webinar />
       </div>
     </div>
   );
