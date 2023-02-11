@@ -8,6 +8,7 @@ export default function Struggle() {
         <img
           src="https://img.pagecloud.com/6lIILIbZjeMVWKT8jGl_lcm_WTA=/323x0/filters:no_upscale()/rays-website-3454/images/image-t0557.png"
           alt="Woman with Mic"
+          className="struggleImg"
         />
       </div>
       <div className="right">

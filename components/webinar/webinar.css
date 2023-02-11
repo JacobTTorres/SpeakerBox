@@ -1,10 +1,83 @@
-.webinarContainer{
+.webinarContainer {
   background-image: linear-gradient(
     120deg,
     var(--secondaryTwo) 0%,
     var(--primaryColor) 75%,
-    var(--darkerPrimaryColor) 100%);
-    width: 100vw;
-    height: 60vh;
+    var(--darkerPrimaryColor) 100%
+  );
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
 
+.webiContent {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.webiLeft,
+.webiRight {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.webiRight {
+  width: 50%;
+  align-items: center;
+}
+
+.webiLeft {
+  text-align: left;
+  align-items: left;
+  width: 42%;
+}
+
+.webiHeader,
+.webiUnderHeader {
+  color: var(--white);
+  text-align: left;
+}
+
+.webiHeader {
+  font-size: 33.03;
+  margin-bottom: 0;
+}
+
+.webiUnderHeader {
+  font-size: 14.9px;
+}
+
+.learnMoreBtn{
+  background-image: var(--learnBtnGrad);
+  height: 6vh;
+  width: 16vw;
+  border: none;
+  border-radius: 5vw;
+  color:var(--white);
+  font-size: 2vh;
+  font-weight: bold;
+  box-shadow: var(--btnShadow)
+}
+
+.learnMoreBtn:hover{
+  background-image: var(--learnBtnGradHov);
+  cursor: pointer-;
+}
+
+.webiImg{
+  height: 25vh;
+  width: 23vw;
+}
+
+.webiImg:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}

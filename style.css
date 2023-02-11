@@ -47,6 +47,17 @@ a {
     rgba(237, 42, 203, 0.9) 0%,
     rgba(237, 10, 95, 0.9) 100%
   );
+  --learnBtnGrad: linear-gradient(
+    180deg,
+    rgba(237, 42, 203, 1) 0%,
+    rgba(237, 10, 95, 1) 100%
+  );
+  --learnBtnGradHov: linear-gradient(
+    180deg,
+    rgba(237, 42, 203, 0.9) 0%,
+    rgba(237, 10, 95, 0.9) 100%
+  );
+  --btnShadow: 5px 7px 8px 1px rgba(0, 0, 0, 0.35);
 }
 
 .appHeader {
@@ -57,12 +68,12 @@ a {
     var(--darkerPrimaryColor) 100%
   );
   width: 100vw;
-  height: 800px;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.appMain{
+.appMain {
   display: flex;
   justify-content: flex-start;
   align-items: center;

@@ -1,6 +1,6 @@
 .headerContainer {
-  width: 45%;
-  height: 100%;
+  width: 45vw;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,11 +15,12 @@
 }
 
 .header {
-  font-size: 50px;
+  font-size: 2.5rem;
+  line-height: 45px;
 }
 
 .headerInfo {
-  font-size: 25px;
+  font-size: 1.5rem;
   font-weight: 300;
 }
 
@@ -27,10 +28,11 @@
   background-image: var(--buttonGrad);
   border: none;
   border-radius: 25vw;
-  height: 10%;
-  width: 40%;
+  height: 5rem;
+  width: 25rem;
   margin-top: 20px;
   font-size: 25px;
+  box-shadow: var(--btnShadow);
 }
 
 .headerBtn:hover {
