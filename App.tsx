@@ -6,7 +6,9 @@ import WhatWeDo from './components/whatWeDo/WhatWeDo';
 import UnderHeader from './components/underHeader/UnderHeader';
 import Struggle from './components/struggle/Struggle';
 import Leverage from './components/leverage/Leverage';
-import Webinar from "./components/webinar/Webinar"
+import Webinar from './components/webinar/Webinar';
+import OurClients from './components/ourClients/OurClients';
+import HoustonBanner from './components/houstonBanner/HoustonBanner';
 
 export default function App() {
   return (
@@ -21,6 +23,8 @@ export default function App() {
         <Struggle />
         <Leverage />
         <Webinar />
+        <OurClients />
+        <HoustonBanner />
       </div>
     </div>
   );
