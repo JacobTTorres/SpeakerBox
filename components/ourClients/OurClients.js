@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './ourClients.css';
+
 export default function OurClients() {
   return (
     <div className="clientsContainer">
@@ -23,13 +25,13 @@ export default function OurClients() {
             last six months by regularly producing podcast episodes.
           </p>
         </div>
-        <div className="clients">
+        <div className="clientsMid">
           <img
             src="https://img.pagecloud.com/V-TsbHR_wa3PJ1H8R2DdVbtGUGM=/139x0/filters:no_upscale()/rays-website-3454/2-v495a.png"
             alt=""
-            className="clientImg"
+            className="clientMidImg"
           />
-          <h3 className="cliHeader">MARTIN HOLSINGER</h3>
+          <h3 className="cliMidHeader">MARTIN HOLSINGER</h3>
           <a href="" className="cliBusniessLink">
             Hillvalley Marketing
           </a>

@@ -1,0 +1,73 @@
+.clientsContainer {
+  height: 95vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(247, 248, 250);
+
+}
+
+.clientsHeader {
+  font-size: 3rem;
+  margin-top: 5rem;
+}
+
+.clientContent {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: row;
+  height: 100%;
+  width: 80vw;
+}
+.clients,
+.clientsMid {
+  width: 17%;
+  height: 80%;
+  border-radius: 1rem;
+  box-shadow: 8px 7px 15px rgba(0, 0, 0, 0.2);
+}
+
+.clients {
+  padding: 5px 15px;
+}
+
+.clientsMid {
+  padding: 0 15px 10px 15px;
+}
+
+.clientImg {
+  height: 15vh;
+}
+
+.clientMidImg {
+  height: 18.25vh;
+  margin-top: -12px;
+}
+
+.cliMidHeader {
+  margin-top: -2px;
+}
+
+.cliHeader,
+.cliMidHeader {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+.cliBusniessLink {
+  font-size: 0.95rem;
+  color: var(--primaryColor);
+  transition: 500ms;
+}
+
+.cliBusniessLink:hover {
+  color: var(--secondaryOne);
+  font-size: 1rem;
+}
+
+.cliQuote {
+  font-size: 1rem;
+}

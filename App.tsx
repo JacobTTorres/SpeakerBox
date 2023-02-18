@@ -9,6 +9,7 @@ import Leverage from './components/leverage/Leverage';
 import Webinar from './components/webinar/Webinar';
 import OurClients from './components/ourClients/OurClients';
 import HoustonBanner from './components/houstonBanner/HoustonBanner';
+import Trusted from './components/trusted/Trusted';
 
 export default function App() {
   return (
@@ -25,6 +26,7 @@ export default function App() {
         <Webinar />
         <OurClients />
         <HoustonBanner />
+        <Trusted />
       </div>
     </div>
   );

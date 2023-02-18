@@ -3,24 +3,24 @@
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
-  height: 93vh;
+  height: 80vh;
   width: 100%;
   background-color: rgb(247, 248, 250);
 }
 
 .leverageHeader {
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 700;
   margin-top: 35px;
 }
 
 .leverageUnder {
-  font-size: 20px;
+  font-size: 1.25rem;
   margin-bottom: 5px;
 }
 
 .underStrong {
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .leverageMain {
@@ -32,21 +32,25 @@
 }
 
 .leverContainer {
-  width: 190.969;
-  height: 394.5px;
+  width: 15%;
+  height: 40vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
 }
 
+.leverageImg{
+  height: 15vh;
+}
+
 .leverHeader {
   margin: 0;
-  font-size: 25px;
+  font-size: 1.6rem;
 }
 
 .leverInfo {
-  font-size: 16px;
+  font-size: .95rem;
   margin: 5px;
 }
 

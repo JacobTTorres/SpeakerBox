@@ -1,0 +1,246 @@
+.TrustedContainer{
+  width: 100vw;
+  height: 72.25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.trustHeader{
+  font-size: 2.25rem;
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.trustLinks{
+  height: 100%;
+  width: 60vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+
+.trustedImgOne,.trustedImgTwo,.trustedImgThree,.trustedImgFour,.trustedImgFive,.trustedImgSix,.trustedImgSeven,.trustedImgEight,.trustedImgNine,.trustedImgTen,.trustedImgEleven,.trustedImgTwelve,.trustedImgThirteen,.trustedImgFourteen{
+  -webkit-filter: grayscale(100%);
+  -moz-filter:grayscale(100%);
+  -o-filter:grayscale(100%);
+  -ms-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.trustedImgOne{
+  height: 3.13vh;
+  transition: 250ms;
+}
+
+.trustedImgOne:hover{
+  height: 4.13vh;
+  -webkit-filter: none;
+  -moz-filter:none;
+  -o-filter:none;
+  -ms-filter: none;
+  filter: none;
+  cursor: pointer;
+}
+
+.trustedImgTwo{
+  height: 17.75vh;
+  transition: 250ms;
+}
+
+.trustedImgTwo:hover{
+  height: 18.75vh;
+  -webkit-filter: none;
+  -moz-filter:none;
+  -o-filter:none;
+  -ms-filter: none;
+  filter: none;
+  cursor: pointer;
+}
+
+.trustedImgThree{
+  height: 5.275vh;
+  transition: 250ms;
+}
+
+.trustedImgThree:hover{
+  height: 6.275vh;
+  -webkit-filter: none;
+  -moz-filter:none;
+  -o-filter:none;
+  -ms-filter: none;
+  filter: none;
+  cursor: pointer;
+}
+
+.trustedImgFour{
+ height: 6.25vh; 
+ transition: 250ms;
+}
+
+.trustedImgFour:hover{
+  height: 7.25vh;
+  -webkit-filter: none;
+  -moz-filter:none;
+  -o-filter:none;
+  -ms-filter: none;
+  filter: none;
+  cursor: pointer;
+}
+
+.trustedImgFive{
+  height: 6.25vh;
+  transition: 250ms;
+}
+
+.trustedImgFive:hover{
+  height: 7.25vh;
+  -webkit-filter: none;
+  -moz-filter:none;
+  -o-filter:none;
+  -ms-filter: none;
+  filter: none;
+  cursor: pointer;
+}
+
+.trustedImgSix{
+  height: 5.5vh;
+  transition: 250ms;
+}
+
+.trustedImgSix:hover{
+  height: 6.5vh;
+  -webkit-filter: none;
+  -moz-filter:none;
+  -o-filter:none;
+  -ms-filter: none;
+  filter: none;
+  cursor: pointer;
+}
+
+.trustedImgSeven{
+  height: 6.29vh;
+  transition: 250ms;
+}
+
+.trustedImgSeven:hover{
+  height: 7.29vh;
+  -webkit-filter: none;
+  -moz-filter:none;
+  -o-filter:none;
+  -ms-filter: none;
+  filter: none;
+  cursor: pointer;
+}
+
+.trustedImgEight{
+  height: 6.35vh;
+  transition: 250ms;
+}
+
+.trustedImgEight:hover{
+  height: 7.35vh;
+  -webkit-filter: none;
+  -moz-filter:none;
+  -o-filter:none;
+  -ms-filter: none;
+  filter: none;
+  cursor: pointer;
+}
+
+.trustedImgNine{
+  height: 10.25vh;
+  transition: 250ms;
+}
+
+.trustedImgNine:hover{
+  height: 11.25vh;
+  -webkit-filter: none;
+  -moz-filter:none;
+  -o-filter:none;
+  -ms-filter: none;
+  filter: none;
+  cursor: pointer;
+}
+
+.trustedImgTen{
+  height: 4.15vh;
+  transition: 250ms;
+}
+
+.trustedImgTen:hover{
+  height: 5.15vh;
+  -webkit-filter: none;
+  -moz-filter:none;
+  -o-filter:none;
+  -ms-filter: none;
+  filter: none;
+  cursor: pointer;
+}
+
+.trustedImgEleven{
+  height: 9.5vh;
+  transition: 250ms;
+}
+
+.trustedImgEleven:hover{
+  height: 10.5vh;
+  -webkit-filter: none;
+  -moz-filter:none;
+  -o-filter:none;
+  -ms-filter: none;
+  filter: none;
+  cursor: pointer;
+}
+
+.trustedImgTwelve{
+  height: 11.4vh;
+  transition: 250ms;
+}
+
+.trustedImgTwelve:hover{
+  height: 12.4vh;
+  -webkit-filter: none;
+  -moz-filter:none;
+  -o-filter:none;
+  -ms-filter: none;
+  filter: none;
+  cursor: pointer;
+}
+
+.trustedImgThirteen{
+  height: 10.1vh;  
+  transition: 250ms;
+}
+
+.trustedImgThirteen:hover{
+  height: 11.1vh;
+  -webkit-filter: none;
+  -moz-filter:none;
+  -o-filter:none;
+  -ms-filter: none;
+  filter: none;
+  cursor: pointer;
+}
+
+.trustedImgFourteen{
+  height: 7.95vh;
+  transition: 250ms;
+}
+
+.trustedImgFourteen:hover{
+  height: 8.95vh;
+  -webkit-filter: none;
+  -moz-filter:none;
+  -o-filter:none;
+  -ms-filter: none;
+  filter: none;
+  cursor: pointer;
+}

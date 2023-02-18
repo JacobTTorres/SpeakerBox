@@ -1,0 +1,35 @@
+.houstonBannerContent {
+  width: 100vw;
+  height: 36.5vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(247, 248, 250);
+
+}
+
+.Houston {
+  width: 56.5vw;
+  height: 100%;
+}
+
+.bannerForeground {
+  position: absolute;
+  bottom: 0;
+  width: 30.5vw;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.heartHouston {
+  width: 9vw;
+  height: 11.5vh;
+}
+
+.beSomeone {
+  width: 9vw;
+  height: 19vh;
+}
