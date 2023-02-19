@@ -10,6 +10,7 @@ import Webinar from './components/webinar/Webinar';
 import OurClients from './components/ourClients/OurClients';
 import HoustonBanner from './components/houstonBanner/HoustonBanner';
 import Trusted from './components/trusted/Trusted';
+import HowWeWork from './components/howWeWork/HowWeWork';
 
 export default function App() {
   return (
@@ -27,6 +28,7 @@ export default function App() {
         <OurClients />
         <HoustonBanner />
         <Trusted />
+        <HowWeWork />
       </div>
     </div>
   );

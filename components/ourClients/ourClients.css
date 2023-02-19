@@ -6,7 +6,6 @@
   align-items: center;
   flex-direction: column;
   background-color: rgb(247, 248, 250);
-
 }
 
 .clientsHeader {
@@ -26,8 +25,9 @@
 .clientsMid {
   width: 17%;
   height: 80%;
-  border-radius: 1rem;
+  border-radius: 0.5vw;
   box-shadow: 8px 7px 15px rgba(0, 0, 0, 0.2);
+  overflow: scroll;
 }
 
 .clients {
@@ -40,6 +40,7 @@
 
 .clientImg {
   height: 15vh;
+  border-radius: 25vw;
 }
 
 .clientMidImg {
