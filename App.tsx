@@ -11,6 +11,7 @@ import OurClients from './components/ourClients/OurClients';
 import HoustonBanner from './components/houstonBanner/HoustonBanner';
 import Trusted from './components/trusted/Trusted';
 import HowWeWork from './components/howWeWork/HowWeWork';
+import Questions from './components/questions/Questions';
 
 export default function App() {
   return (
@@ -29,6 +30,7 @@ export default function App() {
         <HoustonBanner />
         <Trusted />
         <HowWeWork />
+        <Questions />
       </div>
     </div>
   );
