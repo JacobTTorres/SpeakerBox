@@ -1,0 +1,23 @@
+.workContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.workHeader {
+  font-size: 2.25rem;
+}
+
+.workContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 60%;
+}
+
+.workImg {
+  width: 12.9vw;
+}
