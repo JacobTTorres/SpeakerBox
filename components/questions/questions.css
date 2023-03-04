@@ -1,0 +1,55 @@
+.accordionContainer {
+  width: 100vw;
+  height: 70.5vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--white);
+}
+
+.accordionItem {
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 3rem;
+}
+
+.accordionItem:hover {
+  cursor: pointer;
+  color: var(--secondaryTwo);
+}
+
+.accordionTitle {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--primaryColor);
+  transition: 100ms;
+}
+
+.accordionTitle:hover{
+  color: var(--secondaryOne);
+}
+
+.question {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+  transition: 500ms;
+}
+
+.accordionContent {
+  width: 93%;
+  font-size: 1rem;
+  text-align: left;
+  height: 10vh;
+  overflow: scroll;
+}
+
+.accordion {
+  height: 100%;
+}
