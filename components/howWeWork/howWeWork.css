@@ -6,7 +6,10 @@
   width: 100%;
 }
 
-.workHeader {
+.workTopHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 2.25rem;
 }
 
@@ -15,9 +18,45 @@
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  width: 60%;
+  width: 57vw;
+}
+
+.workLeft,
+.workRight {
+  width: 25vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.workLeft {
+  align-items: flex-start;
+}
+
+.workRight {
+  align-items: flex-end;
 }
 
 .workImg {
   width: 12.9vw;
+}
+
+.workLabel,
+.workHeader,
+.workInfo {
+  text-align: left;
+  width: 100%;
+  margin: 0;
+}
+
+.workLabel {
+  font-size: 4rem;
+}
+
+.workHeader {
+  font-size: 1.7rem;
+}
+
+.workInfo {
+  font-size: 1rem;
 }

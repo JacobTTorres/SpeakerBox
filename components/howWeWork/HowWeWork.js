@@ -4,13 +4,13 @@ import './howWeWork';
 export default function HowWeWork() {
   return (
     <div className="workContainer">
-      <h1 className="workHeader">HOW WE WORK</h1>
+      <h1 className="workTopHeader">HOW WE WORK</h1>
       <div className="workContent">
         <div className="workLeft">
           <img
             src="https://img.pagecloud.com/OLMkCkXoRwmJM2lF-5vdSUL64jc=/0x341:355x689/248x0/filters:no_upscale()/rays-website-3454/Untitled-2-l3e21.png"
             alt=""
-            classname="workImg"
+            className="workImg"
           />
         </div>
         <div className="workRight">
@@ -39,7 +39,7 @@ export default function HowWeWork() {
             <img
               src="https://img.pagecloud.com/9QxsXMmKWdEuBYgQBBGIMjQW0JA=/725x347:1046x662/253x0/filters:no_upscale()/rays-website-3454/Untitled-2-l3e21.png"
               alt=""
-              classname="workImg"
+              className="workImg"
             />
           </div>
         </div>
@@ -49,7 +49,7 @@ export default function HowWeWork() {
           <img
             src="https://img.pagecloud.com/F4OuwJGQkznheiWhAM8IAMUZ_NQ=/381x344:702x660/259x0/filters:no_upscale()/rays-website-3454/Untitled-2-l3e21.png"
             alt=""
-            classname="workImg"
+            className="workImg"
           />
         </div>
         <div className="workRight">
