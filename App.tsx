@@ -12,6 +12,7 @@ import HoustonBanner from './components/houstonBanner/HoustonBanner';
 import Trusted from './components/trusted/Trusted';
 import HowWeWork from './components/howWeWork/HowWeWork';
 import Questions from './components/questions/Questions';
+import Pyramid from './components/pyramid/Pyramid';
 
 export default function App() {
   return (
@@ -26,6 +27,7 @@ export default function App() {
         <Struggle />
         <Leverage />
         <Webinar />
+        <Pyramid />
         <OurClients />
         <HoustonBanner />
         <Trusted />
