@@ -12,3 +12,7 @@
 .funnelInfo {
   font-size: 1.25rem;
 }
+
+.funnelImg{
+  rotate: 180deg;
+}

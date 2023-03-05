@@ -20,6 +20,21 @@ export default function Pyramid() {
           alt=""
           className="funnelImg"
         />
+        <div className="first">
+          <h1 className="firstHeader">ATTRACT</h1>
+          <p className="firstInfo">Audio + Video Podcast + SEO Show Notes</p>
+        </div>
+        <div className="second">
+          <h1 className="secondHeader">INDUCT</h1>
+          <p className="secondInfo">Landing Page</p>
+        </div>
+        <div className="third">
+          <h1 className="thirdHeader">ENGAGE</h1>
+          <p className="thirdInfo">Interactive Webcast</p>
+        </div>
+        <div className="fourth">
+          <h1 className="fourthHeader">RALLY</h1>
+        </div>
       </div>
     </div>
   );
